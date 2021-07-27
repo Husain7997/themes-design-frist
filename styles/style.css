@@ -1,0 +1,126 @@
+
+header{
+    background-image: url(images/curved11.jpg);
+     height: 500px;
+}
+.bg-1{
+    background-color: rgb(241, 179, 189);
+}
+button{
+    background-image: linear-gradient(rgb(247, 64, 32), rgb(160, 7, 7));
+}
+.header-topic{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    
+}
+.hader-info h1{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+.hader-info h6{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-mp{
+    margin-top: 30px;
+    text-align: center;
+}
+.card-info{
+    padding: 15px;
+    background-image: linear-gradient(rgb(231, 122, 122), rgb(247, 231, 231));
+    border-radius: 20px;
+}
+.card h2{
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(160, 7, 7);
+}
+
+.system{
+    margin-top: 300px;
+}
+.fas{
+color: rgb(160, 7, 7);
+font-size: 30px;
+}
+.img-size img{
+    width: 400px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.img-size img:hover{
+    transform: skew( 10deg) scale(1.2);
+    transition:transform 1s;
+}
+.box-shedow{
+    box-shadow: none;
+    border: none;
+}
+.desegnation{
+width: 50%;
+margin: 70px auto;
+text-align: center;
+}
+span{
+    color: rgb(241, 90, 115);
+}
+h1{
+    color: black;
+}
+p{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.sub{
+    width: 400px;
+    height: auto;
+}
+.division{
+    width: 800px;
+}
+.w-card{
+    width: 220px;
+    border-radius: 20px;
+}
+.w-card img{
+width: 200px;
+height: 160px;
+padding: 10px;
+margin: 10px;
+border-radius: 45px;
+}
+.w-card img:hover{
+    transform: scale(1.2);
+    transition: transform .5s;
+    overflow: hidden;
+}
+.sticky-top{
+    position:sticky;
+}
+.img-position-1{
+    position: relative;
+    top: 15px;
+}
+.img-position-2{
+    position: relative;
+    top: -90px;
+}
+.mt{
+    margin-top: 100px;
+    padding: 20px;
+}
+.mt p, h1{
+    color: #fff;
+    margin-bottom: 30px;
+}
